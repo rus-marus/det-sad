@@ -1,0 +1,466 @@
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+
+li a.nav-link {
+  color: #fdfdfd;
+  font-size: 110%;
+  font-weight: 700;
+  border-radius: 100px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+li a.nav-link:hover {
+  transition: .4s;
+  color: #fdfdfd;
+  background-color: #f63b3b;
+}
+
+li.nav a.link-secondary {
+  background-color: #f63b3b;
+}
+
+li.nav {
+  border-radius: 100px;
+  background-color: #1782d4;
+  height: 50%;
+  margin: 0.2%;
+  z-index: 10;
+}
+
+h1.fw-light {
+  font-size: 250%;
+  color: #042694;
+}
+
+.dropdown-toggle:not(:focus) {
+  outline: 0;
+}
+
+/*Фото новости*/
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.carousel {
+  margin-bottom: 4rem;
+}
+
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+.carousel-item {
+  height: 32rem;
+}
+
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+.featurette-divider {
+  margin: 5rem 0;
+}
+
+@media (min-width: 40em) {
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+@media (min-width: 40em) {
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+.center-pic {
+  width: 12%;
+  max-width: 100%;
+  height: auto;
+  margin-top: -3%;
+  z-index: 1;
+}
+
+body {
+  background: #a9d5ff;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  width: 100%;
+}
+
+.doc {
+  background-color: #9aceff;
+  border: 0.2rem solid #557aff;
+  border-radius: 100%;
+}
+
+h1.title {
+  font-weight: 700;
+  font-size: 2rem;
+  text-align: center;
+  width: 100%;
+  color: rgb(4, 40, 73);
+  font-family: Verdana, "Times New Roman", serif;
+}
+
+.wrapper div {
+  border: 1px solid #edf5fe;
+  border-radius: 100%;
+  position: relative;
+  box-shadow: inset 0px 0px 30px #edf5fe;
+}
+
+.document {
+  color: #00249b;
+  font-weight: 550;
+}
+
+.wrapper:hover {
+  box-shadow: inset 0px 0px 200px #edf5fe;
+  border-radius: 100%;
+  transition: all 0.7s ease; 
+}
+
+.cloud1{
+	animation: move 6s ease infinite;
+  position: absolute;
+  height: 15%; 
+  top: 9%; 
+  left: 6%;
+}
+
+.cloud2{
+	animation: move 15s ease infinite;
+  position: absolute;
+  height: 38%; 
+  top: -6%; 
+  left: -10%;
+  opacity: 0.7;
+}
+
+.cloud3{
+	animation: move 8s ease infinite;
+  position: absolute;
+  height: 22%; 
+  top: 15%; 
+  left: 17%;
+}
+
+.cloud4{
+	animation: move 4s ease infinite;
+  position: absolute;
+  height: 10%; 
+  top: 16%; 
+  left: 46%;
+}
+
+.cloud5{
+	animation: move 15s ease infinite;
+  position: absolute;
+  height: 30%; 
+  top: 7%; 
+  left: 74%;
+  opacity: 0.7;
+}
+
+.cloud6{
+	animation: move 7s ease infinite;
+  position: absolute;
+  height: 20%; 
+  top: 3%; 
+  left: 84%;
+}
+
+.cloud7{
+	animation: move 3s ease infinite;
+  position: absolute;
+  height: 7%; 
+  top: 22%; 
+  left: 64%;
+}
+
+@keyframes move{
+  50% { transform: translateY(-12%); }
+}
+
+/*Текст при наведении на фотографии - новости*/
+.hover-text-one {
+    overflow: hidden;
+    margin: 0;
+    width: 100%;
+    list-style: none;
+  }
+
+.hover-text-one figure {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    overflow: hidden;
+    cursor: pointer;
+  }
+
+.hover-text-one figure img {
+    position: relative;
+    display: block;
+    min-height: 100%;
+    opacity: 1;
+  }
+
+.hover-text-one figure figcaption {
+    padding: 1em;
+    color: #fff;
+    font-size: 1.25em;
+  }
+
+.hover-text-one figure figcaption::before,
+.hover-text-one figure figcaption::after {
+    pointer-events: none;
+  }
+
+.hover-text-one figure figcaption{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+.hover-text-one figure h3 {
+    word-spacing: -0.15em;
+    font-weight: 300;
+  }
+
+.hover-text-one figure h3 span {
+    font-weight: 800;
+  }
+
+.hover-text-one figure h3,
+.hover-text-one figure p {
+    margin: 0;
+  }
+  
+.hover-text-one figure p {
+    letter-spacing: 1px;
+    font-size: 68%;
+  }
+  
+  /* Эффект при наведении */
+figure.effect-text-three {
+    background: #2a73d4;
+  }
+
+figure.effect-text-three img {
+    width: -webkit-calc(100% + 20px);
+    width: calc(100% + 20px);
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    transform: scale(1.1);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+
+figure.effect-text-three:hover img {
+    opacity: 0.4;
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+  }
+
+figure.effect-text-three figcaption {
+    text-align: left;
+  }
+
+figure.effect-text-three h3 {
+    position: relative;
+    overflow: hidden;
+    padding: 0.5em 0;
+  }
+
+figure.effect-text-three h3::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    content: '';
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+    -webkit-transform: translate3d(-100%,0,0);
+    transform: translate3d(-100%,0,0);
+  }
+
+figure.effect-text-three:hover h3::after {
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+  }
+
+figure.effect-text-three p {
+    padding: 2em 0;
+    opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: translate3d(100%,0,0);
+    transform: translate3d(100%,0,0);
+  }
+
+figure.effect-text-three:hover p {
+    opacity: 1;
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+  }
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+html {
+  display: block;
+  width: auto;
+}
+
+h1.club{
+  font-weight: 800;
+  font-size: 2.5rem;
+  text-align: center;
+  color: rgb(4, 40, 73);
+  font-family: Verdana, "Times New Roman", serif;
+  margin-top: 6%;
+}
+
+h6.club {
+  font-weight: 800;
+  font-size: 2.5rem;
+  text-align: center;
+  color: rgb(4, 40, 73);
+  font-family: Verdana, "Times New Roman", serif;
+  margin-top: 6%;
+}
+
+h5.club {
+  font-weight: 800;
+  font-size: 2.5rem;
+  text-align: center;
+  color: rgb(4, 40, 73);
+  font-family: Verdana, "Times New Roman", serif;
+  margin-top: 6%;
+}
+
+h2.club {
+  font-weight: 800;
+  font-size: 2rem;
+  text-align: center;
+  color: rgb(14, 4, 110);
+  font-family: Verdana, "Times New Roman", serif;
+}
+
+h3.club {
+  font-weight: 800;
+  font-size: 1.6rem;
+  color: rgb(14, 4, 110);
+  font-family: Verdana, "Times New Roman", serif;
+}
+
+h4.club {
+  font-weight: 800;
+  font-size: 1.4rem;
+  text-align: center;
+  color: rgb(14, 4, 110);
+  font-family: Verdana, "Times New Roman", serif;
+}
+
+p.club,a.club {
+  font-weight: 540;
+  font-size: 1.1rem;
+  text-align: center;
+  color: rgb(4, 40, 73);
+  font-family: Verdana, "Times New Roman", serif;
+  font-style: italic;
+  text-decoration: none;
+}
+
+p.lead {
+  font-weight: 540;
+  font-size: 1.1rem;
+  text-align: center;
+  color: rgb(4, 40, 73);
+  font-family: Verdana, "Times New Roman", serif;
+  font-style: italic;
+  text-decoration: none;
+}
+
+h3.click {
+  font-weight: 800;
+  font-size: 1rem;
+  color: rgb(229, 241, 248);
+  font-family: Verdana, "Times New Roman", serif;
+}
+
+#myCarousel {
+  margin: 0% 0% 3% 0%;
+}
+
+.foto {
+  width: auto;
+  height: 80%;
+  border-radius: 3%;
+  z-index: 1;
+}
+
+img.teach {
+  -webkit-box-shadow: 27px 18px 0px -2px rgba(251, 151, 51, 1);
+  -moz-box-shadow: 27px 18px 0px -2px rgba(251, 151, 51, 1);
+  box-shadow: 27px 18px 0px -2px rgba(251, 151, 51, 1);
+}
